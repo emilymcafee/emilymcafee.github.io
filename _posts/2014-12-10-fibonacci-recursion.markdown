@@ -69,7 +69,7 @@ end
 -	Why recursion? For issues of hierarchy & ancestry (visualize a family tree), or when it is not known how far is needed to get to a base value. Also for "divide and conquer" branching iteration. Use only when it easily works to deconstruct into a base value.
 -	Asking for help works. Different people think differently.
 
-**Technologies used:**
+**Technologies Used:**
 
 -	Ruby
 
