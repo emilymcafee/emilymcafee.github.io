@@ -32,7 +32,11 @@ Once a base value is reached, the program can begin to come back from the depths
 
 **Solving the problem:**
 
-I started by trying to construct the Fibonacci sequence backwards --starting with the max value. This is the traditional way to construct the Fibonacci sequence recursively [code], and I wrestled with this for several days because I assumed it was the best. My biggest roadblock was how to capture each value of the sequence along the way? It could return the end product, but trying to capture multiple values that the program returned to itself at different points in execution seemed impossible.
+I started by trying to construct the Fibonacci sequence backwards --starting with the max value. This is the traditional way to construct the Fibonacci sequence recursively:
+{% highlight ruby %}
+f(n) = f(n-1) + f(n-2)
+{% endhighlight %}
+I wrestled with this for several days because I assumed it was the best. My biggest roadblock was how to capture each value of the sequence along the way? It could return the end product, but trying to capture multiple values that the program returned to itself at different points in execution seemed impossible.
 
 Luckily a classmate of mine showed me the light and suggested I construct the sequence from 0 up to the max, still using recursion. It took about 10 minutes to come up with a solution after that:
 
