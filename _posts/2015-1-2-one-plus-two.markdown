@@ -6,9 +6,9 @@ date:   2015-1-2 18:00:00
 
 Reflections on **[Project Euler #35][eulerproblem]**
 
-This problem is relatively straightforward and not terribly exciting, but it's been on my mind for awhile now for a subtle reason: the distinction that it requires between a number as an *integer* vs. a number as a *string*.
+This problem is relatively straightforward and not terribly exciting, but it's been on my mind for awhile now for a subtle reason: the distinction that it requires between a number as an integer vs. a number as a string.The relationship that the *integers* 197, 971, and 719 have is obvious to a human but not to Ruby. 
 
-The relationship that the *integers* 197, 971, and 719 is obvious to a human but not to Ruby. To produce the rotated versions of an integer `123` using Ruby, we must...
+Example: to produce the rotated versions of an integer `123` using Ruby, we must...
 
 1. Convert it to a string `"123"`
 2. Separate the characters and store them somehow `["1","2","3"]`
@@ -18,7 +18,7 @@ The relationship that the *integers* 197, 971, and 719 is obvious to a human but
 6. And then do that *again*, to get `231`
 
 
-I love this problem because it underscores the fact that although computers are terrifyingly powerful, they are no rival the complexity of the human brain. Computers are dumb simple. It's only with the application of the sophisticated thought processes of humans that they become powerful.
+I love this problem because it underscores the fact that although computers are terrifyingly powerful, they are no rival the complexity of the human brain. Computers are simple. It's only with the application of the sophisticated thought processes of humans that they become powerful. We can easily understand that `1 + 2 = 3` but *also* that rotating the digits of `12` would produce `21`. The distinction between, and coexistence of, those multiple data types is intuitive and natural for us.
 
 Anyway... my solution: 
 
