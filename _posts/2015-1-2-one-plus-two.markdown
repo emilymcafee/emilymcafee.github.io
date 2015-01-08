@@ -14,7 +14,7 @@ Example: to produce the rotated versions of an integer `123` using Ruby, we must
 2. Separate the characters and store them somehow `["1","2","3"]`
 3. Rotate them `["3","1","2"]`
 4. Re-connect them `"312"`
-5. Convert back to an intenger `312`
+5. Convert back to an integer `312`
 6. And then rotate *again*, to get `231`
 
 
