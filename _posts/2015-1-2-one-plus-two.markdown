@@ -18,7 +18,10 @@ Example: to produce the rotated versions of an integer `123` using Ruby, we must
 6. And then rotate *again*, to get `231`
 
 
-I love this problem because it underscores the fact that although computers are terrifyingly powerful, they are no rival the complexity of the human brain. Computers are simple. It's only with the application of the sophisticated thought processes of humans that they become powerful. We can easily understand that `1 + 2 = 3` but *also* that rotating the digits of `12` would produce `21`. The distinction between, and coexistence of, those multiple data types is intuitive and natural for us.
+I love this problem because it underscores the fact that although computers are terrifyingly powerful, they are no rival the complexity of the human brain. Computers are simple. It's only with the application of the sophisticated thought processes of humans that they become powerful.
+
+
+It's easy for us to understand that `1 + 2 = 3` and *also* that rotating the digits of `12` would produce `21`. The distinction between those multiple data types is intuitive for us, but most importantly, they can exist simultaneously in our minds without raising errors. :) 
 
 Anyway... my solution: 
 
