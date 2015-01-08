@@ -15,7 +15,7 @@ Example: to produce the rotated versions of an integer `123` using Ruby, we must
 3. Rotate them `["3","1","2"]`
 4. Re-connect them `"312"`
 5. Convert back to an intenger `312`
-6. And then do that *again*, to get `231`
+6. And then rotate *again*, to get `231`
 
 
 I love this problem because it underscores the fact that although computers are terrifyingly powerful, they are no rival the complexity of the human brain. Computers are simple. It's only with the application of the sophisticated thought processes of humans that they become powerful. We can easily understand that `1 + 2 = 3` but *also* that rotating the digits of `12` would produce `21`. The distinction between, and coexistence of, those multiple data types is intuitive and natural for us.
