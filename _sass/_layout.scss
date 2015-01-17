@@ -1,7 +1,11 @@
+
+
+
 /**
  * Site header
  */
 .site-header {
+    padding-top: 3em;
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
@@ -92,8 +96,10 @@
  * Site footer
  */
 .site-footer {
+    min-height: 46px;
+    padding-top: 3em;
+    padding-bottom: 2em;
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
 }
 
 .footer-heading {
@@ -161,8 +167,88 @@
 /**
  * Page content
  */
+.about-image {
+    background-image: url("../tree.jpg");
+    background-size: cover; 
+}
+
+
+.about {
+    background: rgba(0,0,0,0.8);
+    height: 200px;
+    color: $grey-color-light;
+}
+
+.portfolio {
+    background-color: $grey-color-light;
+    padding-bottom: 25px;
+}
+
+.portfolio h2 {
+    margin: 0;
+}
+
+.project-one-image-darken {
+    width: 40%;
+    float: left;
+    padding-right: 2%;    
+}
+
+.project-one-image {
+    border: solid black 10px;
+}
+.project-one-image{
+    background-color: black;
+}
+
+.project-one-image a img:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.project-one-text {
+    width: 58%;
+    float: left;
+}
+
+.project-one-text a{
+    background-color: #424242;
+    padding: 5px 10px;
+    color: #E8E8E8;
+}
+
+.project-one-text-links{
+    list-style-type: none;
+
+}
+
+.outer-project-one {
+    padding-top: 10px;
+    clear:both;
+}
+
+.blog-image {
+    background-image: url("../bay.jpg");
+    background-size: cover; 
+}
+
+.blog {
+    background: rgba(0,0,0,0.6);
+    color: #E8E8E8;
+}
+
+.blog h3{
+    max-width: 80%;
+}
+
+.blog a{
+    background-color: #424242;
+    padding: 5px 10px;
+    color: #E8E8E8;
+}
+
 .page-content {
-    padding: $spacing-unit 0;
+    padding: /*$spacing-unit */0;
 }
 
 .page-heading {
@@ -187,6 +273,8 @@
     display: block;
     font-size: 24px;
 }
+
+
 
 
 

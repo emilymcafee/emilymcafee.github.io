@@ -14,6 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
+    min-width: 560px;
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
@@ -153,7 +154,8 @@ pre {
 /**
  * Wrapper
  */
-.wrapper {
+.wrapper, .inner-wrapper{
+    padding-top: 1em;
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
@@ -167,6 +169,19 @@ pre {
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
+    }
+}
+
+/**
+ * Inner Wrapper
+ */
+.inner-wrapper{
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+
+    @include media-query($on-laptop) {
+        padding-top: $spacing-unit / 2;
+        padding-bottom: $spacing-unit / 2;
     }
 }
 

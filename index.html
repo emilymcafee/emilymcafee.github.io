@@ -1,23 +1,52 @@
 ---
 layout: default
 ---
+<div class="about-image">
+<div class="about" id="about">
+	<div class="inner-wrapper">
+		<h1></h1>
+		<p></p>
+	</div>
+	</div>
+</div>
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<div class="portfolio" id="portfolio">
+	<div class="inner-wrapper">
+	<h1>Portfolio</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<div class="project-one">
+		<div class="project-one-image-darken">
+		<div class="project-one-image">
+			<a href="https://rightdoor.herokuapp.com/"><img src="../rightdoor.jpg"></a>
+		</div>
+		</div>
+		<div class="project-one-break"></div>
+		<div class="project-one-text">
+			<h2>Right Door</h2>
+			<p>Right Door is a Metro route calculator with real-time train arrivals. Comments allow users to share tips on where to board in order to be dropped closest to their  escalator. Read more:</p>
+			<div class="project-one-text-links">
+				<a href="/2014/12/20/right-door.html">Original Right Door</a><br><br>
+				<a href="#">Re-launched Right Door</a>
+			</div>
+		</div>
+	</div>
+	<div class="outer-project-one">
+	</div>
 
 </div>
+</div>
+
+<div class="blog-image">
+<div class="blog" id="blog">
+	<div class="inner-wrapper">
+		<h1>Blog</h1>
+		<div class="project" id="bloglink">
+			<h3>In November 2014, I began a 12-week program in web development at General Assembly in Washington, DC. I’m using this blog to chronicle my learning process, including: topics of intrigue, weird challenges, project aspirations.</h3>
+			<h3><a href="/blog/">Read</a></h3>
+		</div>
+	</div>
+</div>
+</div>
+
+
