@@ -15,7 +15,7 @@ I spent the day experimenting with [Mapbox Studio][mapboxstudio] for the first t
 
 I pulled lat/long of each station [here][stationlist]. I had to do the connections by hand, though I'm sure there's a better way to do that. Thoughts on this map:
 
-- How very different the actual geography of the metro is from the [WMATA map used for directions][wmatamap], and how this influences/limits understanding of the region (by residents and tourists alike). Looking at this map, the movement of trains through stations all of the sudden becomes tangibly connected to the movement of real people who live or work in various parts of the city/region. 
+- How very different the actual geography of the metro is from the [WMATA system map][wmatamap], and how this influences/limits understanding of the region (by residents and tourists alike). Looking at this map (especially at higher zooms), the movement of trains through stations all of the sudden becomes tangibly connected to the movement of real people who live or work in various parts of the city/region. 
 -	The story of putting public transportation on large-scale maps... I'm used to seeing regional or national maps with streets, highways, and interstates, but what about regional/national maps with rail and other forms of public transpo? It's a very different narrative.
 
 **The second is a snapshot of WMATA's buses:**
