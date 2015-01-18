@@ -14,7 +14,7 @@ A good route to demo: Columbia Heights to Eastern Market.
 
 **Musings:**
 
--	Wow. There's really no way for me to automate the calculation of the "right door" without manually scraping data for the location of each escalator in every station. I'm still committed to this idea, but in the meantime I'm implementing commenting on individual routes so that users can share their tips. This makes the app more of a knowledge-sharing platform for "hacking" your commute. 
+-	Wow. There's really no way for me to automate the calculation of the "right door" without manually collecting data for the location of each escalator in every station. I'm still committed to this idea, but in the meantime I'm implementing commenting on individual routes so that users can share their tips. This makes the app more of a knowledge-sharing platform for "hacking" your commute. 
 -	How to get starting/ending station input? I struggled with this for awhile. Drop-down list? Check box? Input the line color and *then* the station? My instructor Jesse reminded me to think about my users here. Would it be tourists unfamiliar with the system, who need a map to look up their station? No -- this is for seasoned commuters, who only need to type in the station name and don't want to be bothered with much else. Hence the autofill.
 
 

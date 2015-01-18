@@ -9,7 +9,8 @@ I spent the day experimenting with [Mapbox Studio][mapboxstudio] for the first t
 **The first is a simple metro map:**
 
 ![Metro map]({{ site.url }}/assets/metro_map.jpeg)
-![Metro map zoomed out]({{ site.url }}/assets/metro_zoom.jpeg)
+
+![Metro map zoomed out]({{ site.url }}/assets/metro_zoom.jpg)
 
 
 I pulled lat/long of each station [here][stationlist]. I had to do the connections by hand, though I'm sure there's a better way to do that. Thoughts on this map:
@@ -21,7 +22,7 @@ I pulled lat/long of each station [here][stationlist]. I had to do the connectio
 
 ![Bus snapshot]({{ site.url }}/assets/bus_snapshot.jpeg)
 
--	Next, I pulled from [WMATA's bus position API][busposition] just a snapshot of bus positioning around the city. I displayed it using the "Deviation" metric--that is, how far off-schedule a given bus is. The bigger the marker, the bigger the delay.
+-	I pulled from [WMATA's bus position API][busposition] a snapshot of bus positioning around the city. I displayed it using the "Deviation" metric--that is, how far off-schedule a given bus is. The bigger the marker, the bigger the delay.
 -	This map is pretty but it doesn't tell me much. I think I'm disappointed with it because it's not really loyal to the data it portrays. That is to say -- buses are not static. Bus *stops* are, and bus *routes* are, but the buses themselves are not. I think a good next step will be mapping the bus routes across the city.
 
 **The third follows one 54 bus for 1 hour:**
