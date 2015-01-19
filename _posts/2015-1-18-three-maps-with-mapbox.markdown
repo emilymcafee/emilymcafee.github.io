@@ -44,7 +44,7 @@ Well, that's it for dipping my toes today. I've really only scratched the surfac
 
 -	Ruby
 -	Javascript / fiddling with Mapbox.js
--	[Carto CSS](https://github.com/mapbox/carto/blob/master/docs/latest.md)
+-	[CartoCSS](https://github.com/mapbox/carto/blob/master/docs/latest.md)
 -	JSON, learning about GeoJSON
 
 [mapboxstudio]: https://www.mapbox.com/mapbox-studio/#darwin
