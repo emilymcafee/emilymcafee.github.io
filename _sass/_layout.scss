@@ -175,8 +175,14 @@
 
 .about {
     background: rgba(0,0,0,0.8);
-    height: 200px;
+    height: 300px;
     color: $grey-color-light;
+}
+
+.about a{
+    background-color: #424242;
+    padding: 5px 10px;
+    color: #E8E8E8;
 }
 
 .portfolio {
