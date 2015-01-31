@@ -22,7 +22,7 @@ When [visiting TwitterBurst][burst], you may need to also awaken [the Node serve
 **My fav features:**
 
 -	The obvious winner is the Node app, but I'm going to save that for an upcoming blog post.
--	The circles. I can't take credit for the circle size algorithm, but I just love the thought process behind them. Not only do they give the user something to watch during those long 30 seconds, but they really represent the core idea of the app. It's not just how much a certain word is being used overall, but it's how much in *relation* to another word, at particular moment in time. My inspiration for this representation was [Google Ngram Viewer][ngrams], one of my all-time favorite projects.
+-	The circles. I can't take credit for the circle size algorithm, but I just love the thought process behind them. Not only do they give the user something to watch during those long 30 seconds, but they really represent the core idea of the app. It's not just how much a certain word is being used overall, but it's how much in *relation* to another word, at a particular moment in time. My inspiration for this representation was [Google Ngram Viewer][ngrams], one of my all-time favorite projects.
 -	The power of the real-time web. Javascript is not just for animations; it's a crazy powerful tool that lets you do things like interact with your database without leaving the page. And way more that I don't even know about yet. We tried to make use of this by building a single-page app.
 
 
@@ -40,7 +40,7 @@ When [visiting TwitterBurst][burst], you may need to also awaken [the Node serve
 -	Asynchronous programming
 -	Intro to web sockets
 -	Managing group dynamics and work
--	Thoughtful database design
+-	Thoughtful database design is a challenge worth taking on
 
 
 **Technologies used:**
