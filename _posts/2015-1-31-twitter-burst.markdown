@@ -6,7 +6,7 @@ date:   2015-1-31 13:01:17
 
 Week 9 of General Assembly WDI was a 4-day group project; my group built a head-to-head, real-time hashtag competition with the Twitter streaming API. The game runs for 30 seconds, and whichever word has the most tweets come through in those 30 seconds wins. The name "TwitterBurst" comes from a feature that has yet to be implemented: growing and shrinking circles represent the score in real time, and the circle for the winning hashtag will 'burst' at the conclusion of the 30 seconds.
 
-**Visit the app**
+**Visit the app:**
 
 When [visiting TwitterBurst][burst], you may need to also awaken [the Node server][node] that is hosted for free on Heroku!
 
