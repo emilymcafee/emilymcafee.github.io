@@ -194,33 +194,35 @@
     margin: 0;
 }
 
-.project-one-image-darken {
+.project-image-darken {
     width: 40%;
     float: left;
     padding-right: 2%;    
 }
 
-.project-one-image {
+.project-image {
     border: solid black 10px;
 }
-.project-one-image{
+.project-image{
     background-color: black;
 }
 
-.project-one-image a img:hover {
+.project-image a img:hover {
     background-color: black;
     opacity: 0.5;
 }
 
-.project-one-text {
+.project-text {
     width: 58%;
     float: left;
 }
 
 .outer-project-one {
-    padding-top: 10px;
+    padding-top: 2em;
     clear:both;
 }
+
+
 
 .blog-image {
     background-image: url("../bay.jpg");

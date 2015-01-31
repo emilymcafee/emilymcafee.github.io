@@ -4,13 +4,26 @@ title:  "RightDoor"
 date:   2014-12-20 13:01:17
 ---
 
+*Update January 2015* : Right Door has been relaunched with Rails! **[Visit the latest RightDoor.](http://rightdoor.herokuapp.com)**
+
+------
+
+<br>
+
 Week 5 of General Assembly WDI was project week - a full 4 days for students to build individual projects. I set out to build a tool for the Washington Metro that would tell a user the best location to board the train in order to be dropped closest to their escalator at the transfer/exit. It also provides real-time train arrival info for your starting station and transfer station! Project week came before we got to Rails, so the app is built in Ruby using Sinatra. Over the holidays I'll be working on learning Rails and re-building RightDoor in that framework. 
 
-**[Visit RightDoor](http://rightdoor.herokuapp.com)**
+**Visit RightDoor**: 
 
-**[Visit the code on GitHub](https://github.com/emilymcafee/rightdoor)**
+-	[Relaunched app](http://rightdoor.herokuapp.com)
 
-A good route to demo: Columbia Heights to Eastern Market.
+-	[Original app](http://rightdoor-original.herokuapp.com/)
+
+**Visit the code on GitHub**
+
+-	[Relaunched code](https://github.com/emilymcafee/rightdoor)
+
+-	[Original code](https://github.com/emilymcafee/rightdoor-original)
+
 
 **Musings:**
 
