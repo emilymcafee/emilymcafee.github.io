@@ -65,7 +65,7 @@ With both words coming through in one stream, additional processing was required
 
 **BETTER SOLUTION:** A socket for each search.
 
-Let's start by making adjustments on the client side. Here's the original client-side of the app. Note the singular socket with an 'or' search and the additional processing with conditionals:
+Let's start by making adjustments on the client side. Here's the original client side of the app. Note the singular socket with an 'or' search and the additional processing with conditionals:
 
 {% gist 7dc1888c80236e454a63 %}
 
