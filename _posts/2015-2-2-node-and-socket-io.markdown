@@ -106,13 +106,13 @@ Boom. Instead of io.sockets, we are referring to the singular 'socket,' and acti
 
 **EXPLANATION:** The client stops listening after 30 seconds, but the server does not close the original stream with Twitter. Consequently, the original stream will continue being emitted for multiple games, even if the search terms have changed. Subsequent games will not create a fresh connection with Twitter--instead, subsequent games will just search within the original stream (hence "I'm so happy I'm stranded in Florida and not in three feet of snow.") 
 
-**SOLUTION:** This has to do with using the Twit module and closing/restarting the connection there. Fixing this was as simple as adding 3 lines of code. Here's the solution:
+**SOLUTION:** This has to do with using the Twit module and closing/restarting the connection there. When I first build this app there was nothing that closed the original connection. Fixing this was as simple as adding 3 lines of code. Here's the solution:
 
 {% gist aae8fcbf64148c0909f5 %}
 
 (Look at the callback on lines 7-9)
 
-The app is listening for a disconnect event; when a socket is disconnected it will close that particular stream with Twitter. Yay!
+The app is listening for a disconnect event; when a socket is disconnected it will close that particular stream with Twitter. When a new request is made, it will open a fresh connection with the proper keywords. Yay!
 
 
 
