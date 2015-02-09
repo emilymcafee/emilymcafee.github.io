@@ -26,7 +26,7 @@ So, using an organizational framework (like Backbone), we are creating a mirror 
 
 What we are talking about here is everything that happens *after* an initial page load. On a single-page app, there should be 0 refreshing after that point -- no reloading the page. Any time the data changes after that initial load (whether through user interaction or new data coming from the server), the UI should automatically sync up to that data. 
 
-Instead of the client making requests for data and the server returning responses, the client is *subscribing* to changes in data and the server is continually *publishing* whatever changes may come. This is a dynamic, flexible, asynchronous way to handle changes in data, and the thing that makes it all possible is that Javascript can listen. Listen to user interaction, listen to changes in data on the server, etc -- Javascript can listen to those events, and respond. (A framework like Backbone enhances that listening and automates responses.)
+Instead of the client making requests and the server returning responses, the client is *subscribing* to changes in data and the server is continually *publishing* whatever changes may come. This is a dynamic, flexible, asynchronous way to handle changes in data, and the thing that makes it all possible is that Javascript can listen. Listen to user interaction, listen to changes in data on the server, etc -- Javascript can listen to those events, and respond. (A framework like Backbone enhances that listening and automates responses.)
 
 
 ### **Backbone.js key concepts**
