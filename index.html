@@ -1,61 +1,23 @@
 ---
-layout: default
+layout: blogroll
+title: Emily McAfee
+permalink: /
 ---
-<div class="about-image">
-<div class="about" id="about">
-	<div class="inner-wrapper">
-		<h1>About</h1>
-		<h3>Inquisitive and meticulous full-stack developer looking to harness the power of tech to solve problems that matter. Enthusiastic about public transit & visualizing and understanding data through maps.</h3>
-		<!-- <h3><a href="#">Résumé</a></h3> -->
-	</div>
-	</div>
-</div>
 
+<div class="home">
 
-<div class="portfolio" id="portfolio">
-	<div class="inner-wrapper">
-	<h1>Portfolio</h1>
+  <h1 class="page-heading">Posts</h1>
 
-	<div class="project-one">
-		<div class="project-image-darken">
-		<div class="project-image">
-			<a href="https://rightdoor.herokuapp.com/"><img src="../right.jpg"></a>
-		</div>
-		</div>
-		<div class="project-break"></div>
-		<div class="project-text">
-			<h2>Right Door</h2>
-			<p>Right Door is a Metro route calculator with real-time train arrivals for the departing station. Comments allow users to share tips on where to board in order to be dropped closest to their next escalator. This was my first individual project; it was originally built with Sinatra and later reconstructed as I was learning Rails. <a href='https://github.com/emilymcafee/rightdoor'>Visit the code</a> or read about the project on <a href='http://emilymcafee.github.io/2014/12/20/right-door.html'>my blog</a>.</p>
-		</div>
-	</div>
-	<div class="outer-project-one">
-	</div>
-		<div class="project-two">
-		<div class="project-image-darken">
-		<div class="project-image">
-			<a href="https://twitterburst.herokuapp.com/"><img src="../tburst.jpg"></a>
-		</div>
-		</div>
-		<div class="project-break"></div>
-		<div class="project-text">
-			<h2>TwitterBurst</h2>
-			<p>TwitterBurst is a head-to-head, real-time hashtag competition built on Rails. I acted as project lead for this group project. My contributions included implementing the backend architecture, managing group workflow, and building a Node.js app that serves TwitterBurst with a custom Twitter stream for each match. When visiting this app, you may need to also awaken <a href='http://twitter-burst-node.herokuapp.com/'>the Node server</a> that is hosted for free on Heroku! Visit the code (<a href='https://github.com/emilymcafee/t_burst_new'>Rails</a> & <a href='https://github.com/emilymcafee/twitter-burst-node'>Node</a>) or read about the project on <a href='http://emilymcafee.github.io/2015/01/31/twitter-burst.html'>my blog.</a></p>
-		</div>
-	</div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
 </div>
-</div>
-
-<div class="blog-image">
-<div class="blog" id="blog">
-	<div class="inner-wrapper">
-		<h1>Blog</h1>
-		<div class="project" id="bloglink">
-			<h3>In November 2014, I began a 12-week program in web development at General Assembly in Washington, DC. I’m using this blog to chronicle my learning process, including: topics of intrigue, weird challenges, project aspirations.</h3>
-			<h3><a href="/blog/">Read</a></h3>
-		</div>
-	</div>
-</div>
-</div>
-
-
